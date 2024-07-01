@@ -1,7 +1,11 @@
 # Databricks notebook source
 import pandas as pd
 
-housedata = pd.read_csv("/dbfs/FileStore/datavisualization-in-databricks/data/kc_house_data.csv")
+#dbfs path to the catalog in databricks
+path= "/dbfs/FileStore/datavisualization-in-databricks/data/kc_house_data.csv"
+
+
+housedata = pd.read_csv(path)
 housedata
 
 # COMMAND ----------
