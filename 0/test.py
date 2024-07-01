@@ -1,16 +1,10 @@
 # Databricks notebook source
 import pandas as pd
-import matplotlib.pyplot as plt
-import random
-import numpy as np
 
-X = np.linspace(0,10,100)
-Y= np.sin(X)
+data_frame = pd.read_csv("/dbfs/FileStore/datavisualization-in-databricks/data/nst_est2020.csv")
+data_frame
 
-plt.plot(X,Y)
-plt.xlabel("Points")
-plt.ylabel("Sine  values")
 
 # COMMAND ----------
 
-
+    
