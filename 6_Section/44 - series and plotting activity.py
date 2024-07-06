@@ -18,11 +18,12 @@ type(book["User Rating"])
 # COMMAND ----------
 
 book.Genre.unique()
+#shows unique types
 
 # COMMAND ----------
 
 book.Author.nunique()
-
+#shows amount of unique values
 
 # COMMAND ----------
 
